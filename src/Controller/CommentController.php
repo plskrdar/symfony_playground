@@ -11,7 +11,7 @@ use Symfony\Component\Routing\Annotation\Route;
 class CommentController extends AbstractController
 {
     /**
-     * @Route("/comment/{id}/vote/{direction}")
+     * @Route("/comments/{id}/vote/{direction}")
      */
     public function commentVote($id, $direction)
     {
